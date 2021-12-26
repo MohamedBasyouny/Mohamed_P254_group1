@@ -196,6 +196,7 @@ GameObject:
   - component: {fileID: 959047096}
   - component: {fileID: 959047097}
   - component: {fileID: 959047098}
+  - component: {fileID: 959047099}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -282,7 +283,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 959047091}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1ecba7276e5646945808e6bb5ee50dee, type: 3}
   m_Name: 
@@ -307,11 +308,26 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 959047091}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: af404526b195f6942a61f6fc7c8b1803, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &959047099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 959047091}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4133b00241b533e40b4a4107cca4c339, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myVehicle:
+    speed: 10.68
+    color: Yellow
 --- !u!1 &1710947882
 GameObject:
   m_ObjectHideFlags: 0
